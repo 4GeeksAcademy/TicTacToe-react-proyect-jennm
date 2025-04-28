@@ -9,3 +9,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  background-color: rgb(243, 171, 171);
+
+}
+
+.square {
+    width: 80px; /* Ancho del cuadro */
+    height: 80px; /* Alto del cuadro */
+    background: rgb(33, 136, 180); /* Color de fondo blanco */
+    border: 2px solid #000; /* Bordes negros */
+    font-size: 32px; /* Tamaño de letra grande */
+    font-weight: bold; /* Letra en negrita */
+    display: flex; /* Usamos flexbox para centrar contenido */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    cursor: pointer; /* Cambia el cursor al pasar */
+  }
+
+
+.board-row {
+    display: flex;
+  }
+
